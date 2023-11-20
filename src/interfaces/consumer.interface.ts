@@ -1,0 +1,45 @@
+export interface IConsumerNew {
+    address: string;
+    address2: string;
+    agency_id: number;
+    building: null | string;
+    district: string;
+    firstname: string;
+    floor: string;
+    id: number;
+    lastname: string;
+    line_uid: string;
+    location: {
+      latitude: string;
+      longitude: string;
+    };
+    latitude: string;
+    longitude: string;
+    location_address: string;
+    location_address2: string;
+    location_building: null | string;
+    location_description: string;
+    location_district: string;
+    location_floor: string;
+    location_moo: string;
+    location_phone: string;
+    location_postcode: string;
+    location_province: string;
+    location_road: string;
+    location_soi: string;
+    location_subdistrict: string;
+    metadata: null;
+    meter_size: string;
+    meter_type: string;
+    moo: string;
+    phone: string;
+    postcode: string;
+    privilege_id: number;
+    province: string;
+    road: string;
+    soi: string;
+    status: string;
+    subdistrict: string;
+    title: string;
+    uuid: string;
+  }

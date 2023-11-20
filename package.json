@@ -1,0 +1,44 @@
+{
+  "name": "aquater-login",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "devb": "next build && next start"
+  },
+  "dependencies": {
+    "@line/liff": "2.22.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "@types/react-map-gl": "^6.1.3",
+    "antd": "^5.4.7",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "dom-to-image": "^2.6.0",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "mapbox-gl": "^2.15.0",
+    "next": "13.3.4",
+    "postcss": "8.4.23",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-map-gl": "^7.0.24",
+    "react-spinners": "^0.13.8",
+    "react-static-google-map": "^0.9.0",
+    "sharp": "^0.32.1",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@types/mapbox-gl": "^2.7.11",
+    "@types/node": "^20.5.7"
+  }
+}
